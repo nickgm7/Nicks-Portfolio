@@ -301,7 +301,6 @@ textarea {
   width: 25rem;
   height: 25rem;
   margin: 0 auto;
-  transform: rotate(25deg);
 }
 
 .description-image img {
@@ -310,21 +309,6 @@ textarea {
   object-fit: contain;
 }
 
-.description-image.has-sparkles::before,
-.description-image.has-sparkles::after {
-  width: 2rem;
-  height: 2rem;
-}
-
-.description-image.has-sparkles::before {
-  top: 10rem;
-  right: -1rem;
-}
-
-.description-image.has-sparkles::after {
-  top: 2rem;
-  right: 1rem;
-}
 
 .tech-stack {
   max-width: 50rem;
